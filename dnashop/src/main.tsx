@@ -1,10 +1,12 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
-import './index.css'
+import ReactDOM from 'react-dom';
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+const App = () => {
+    return (
+        <div>
+            <h1>Welcome to DnaShop!</h1>
+            {/* Add your components and content here */}
+        </div>
+    );
+};
+
+ReactDOM.render(<App />, document.getElementById('root'));
