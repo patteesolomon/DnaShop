@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#MainContent {
+    --min-top-offset: -84px;
+    --max-top-offset: calc(var(--min-top-offset) + 1px);
+    --top-offset: calc(-1 * var(--header-static-height, var(--min-top-offset)));
+    margin-top: clamp(var(--min-top-offset), var(--top-offset), var(--max-top-offset));
+}
+style attribute {
+    --header-component-height: 41.60000228881836px;
+    --header-height: 53.60000228881836px;
+    --header-static-height: 53.60000228881836px;
+    --announcement-bar-height: 34.61249923706055px;
+    --announcement-bar-visible: 1;
+}
+:root{
+        --swiper-navigation-size: 96px;
+            --swiper-navigation-size-mobile: 60px;
+        --swiper-theme-color: rgba(var(--color-background-secondary), 1);
+    --font-content-family: 'Courier', sans-serif;
+        --font-heading-family: 'Chalet', sans-serif;
+        --font-heading-deinde: 'DeindeSans', sans-serif;
+        --heading-font-weight: 500;
+        --h1-font-size-desktop: 60;
+        --h1-font-size-mobile: 40;
+        --h1-font-size-mobile-value: calc(var(--h1-font-size-mobile)*1px);
+        --privacy-font-family: var(--font-heading-family);
+        --h2-font-size-desktop: 50;
+        --h2-font-size-mobile: 35;
+        --h2-font-size-mobile-value: calc(var(--h2-font-size-mobile)*1px);
+        --h3-font-size-desktop: 40;
+        --h3-font-size-mobile: 25;
+        --h3-font-size-mobile-value: calc(var(--h3-font-size-mobile)*1px);
+        --h4-font-size-desktop: 40;
+        --h4-font-size-mobile: 25;
+        --h4-font-size-mobile-value: calc(var(--h4-font-size-mobile)*1px);
+        --h5-font-size-desktop: 30;
+        --h5-font-size-mobile: 20;
+        --h5-font-size-mobile-value: calc(var(--h5-font-size-mobile)*1px);
+        --subheading-font-weight: 400;
+        --subheading-1-font-size-desktop: 30;
+        --subheading-1-font-size-mobile: 20;
+        --subheading-1-font-size-mobile-value: calc(var(--subheading-1-font-size-mobile)*1px);
+        --subheading-2-font-size-desktop: 20px;
+        --subheading-2-font-size-mobile: 16px;
+        --subheading-3-font-size: 12px;
+        --body-classes-font-weight: 400;
+        --body-xl-font-size-desktop: 24px;
+        --body-xl-font-size-mobile: 18px;
+        --body-l-font-size-desktop: 20px;
+        --body-l-font-size-mobile: 16px;
+        --body-m-font-size-desktop: 16px;
+        --body-m-font-size-mobile: 14px;
+        --body-s-font-size-desktop: 14px;
+        --body-s-font-size-mobile: 12px;
+        --body-xs-font-size-desktop: 12px;
+        --body-xs-font-size-mobile: 11px;
+        --outline-1-font-size-desktop: 210;
+        --outline-1-font-size-mobile: 120;
+        --outline-1-font-size-mobile-value: calc(var(--outline-1-font-size-mobile)*1px);
+        --outline-2-font-size-desktop: 120;
+        --outline-2-font-size-mobile: 65;
+        --outline-2-font-size-mobile-value: calc(var(--outline-2-font-size-mobile)*1px);
+        --outline-3-font-size-desktop: 120;
+        --outline-3-font-size-mobile: 50;
+        --outline-3-font-size-mobile-value: calc(var(--outline-3-font-size-mobile)*1px);
+        --outline-4-font-size-desktop: 85;
+        --outline-4-font-size-mobile: 50;
+        --outline-4-font-size-mobile-value: calc(var(--outline-4-font-size-mobile)*1px);
+        --outline-5-font-size-mobile: 65;
+        --outline-5-font-size-mobile-value: calc(var(--outline-5-font-size-mobile)*1px);
+        --outline-6-font-size-desktop: 40;
+        --outline-6-font-size-mobile: 30;
+        --outline-6-font-size-mobile-value: calc(var(--outline-6-font-size-mobile)*1px);
+        --ticker-font-size-desktop: 24px;
+        --ticker-font-size-mobile: 16px;
+        --vertical-font-size-desktop: 20px;
+        --vertical-font-size-mobile: 18px;
+        --product-title-font-size-desktop: 18px;
+        --product-title-font-size-mobile: 18px;
+        --cta-text-font-size-desktop: 16px;
+        --cta-text-font-size-mobile: 14px;
+        --product-badge-font-size-desktop: 14px;
+        --product-badge-font-size-mobile: 14px;
+        --body-copy-link-font-size-desktop: 12px;
+        --body-copy-link-font-size-mobile: 12px;
+        --primary-background: #4A9390;
+        --secondary-background: #D4E3DB;
+        --tertiary-background: #E5E2DA;
+        --primary-button-background: #F0F55D;
+        --primary-button-color: #075754;
+        --primary-button-hover-background: #075754;
+        --primary-button-hover-color: #FFFFFF;
+        --secondary-button-background: #075754;
+        --secondary-button-color: #FFFFFF;
+        --secondary-button-hover-background: #F0F55D;
+        --secondary-button-hover-color: #075754;
+        --tertiary-button-background: #FFFFFF;
+        --tertiary-button-color: #075754;
+        --tertiary-button-hover-background: #075754;
+        --tertiary-button-hover-color: #FFFFFF;
+        --content-color: #075754;
+        --subheading-desktop-color: #255653;
+        --black-color: #000000;
+        --white-color: #FFFFFF;
+        --grey-color: #757575;
+        --challenge-bg-color: #FFFFFF;
+        --deinde-logo-svg: url(//www.deinde.com/cdn/shop/files/deinde-logo.svg?26382);
+}
+
+img[data-sizes=auto] {
+    display: block;
+    width: 100%;
+    border-style: none;
+}
+
+body {
+    width: 100%;
+    position: relative;
+    color: #000;
+    background-color: var(--primary-background);
+    font-family: var(--font-content-family);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 1.42;
+    overflow-x: hidden;
+    overflow-y: overlay;
+    padding-bottom: var(--sticky-bar-height, 0);
+}
